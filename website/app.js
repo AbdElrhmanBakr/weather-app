@@ -3,7 +3,7 @@ const generateButton = document.querySelector("#generate");
 // base url to get data from openweathermap.org, Country by default is (US)
 let baseURL = "https://api.openweathermap.org/data/2.5/weather?zip=";
 // Personal API Key for OpenWeatherMap API
-const apiKey = ",&appid=3c85982aaf172297d8446f64d303d28b&units=imperial";
+const apiKey = ",&appid=keyhere&units=imperial";
 // Create a new date instance dynamically with JS
 let d = new Date();
 //Adding one to d.getMonth() because it starts from 0 => oct = 9 ... etc
